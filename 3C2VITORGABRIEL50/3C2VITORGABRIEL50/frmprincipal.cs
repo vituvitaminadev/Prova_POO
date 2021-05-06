@@ -40,6 +40,14 @@ namespace _3C2VITORGABRIEL50
                 lblinss.Text = descontoINSS.ToString("C");
                 lblvaletransporte.Text = descontoValeTransporte.ToString("C");
             }
+
+
+            txtsalario.Text = "";
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            rdb40horas.Checked = false;
+            rdb44horas.Checked = false;
         }
     }
 }

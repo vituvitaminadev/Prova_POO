@@ -199,6 +199,8 @@
             // btncalcular
             // 
             this.btncalcular.BackColor = System.Drawing.Color.Black;
+            this.btncalcular.FlatAppearance.BorderSize = 0;
+            this.btncalcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncalcular.Font = new System.Drawing.Font("Dank Mono", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncalcular.ForeColor = System.Drawing.Color.White;
             this.btncalcular.Location = new System.Drawing.Point(341, 78);
